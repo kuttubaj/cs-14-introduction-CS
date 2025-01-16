@@ -1,0 +1,60 @@
+C = float(input("напишите любой градус цельсии:"))
+F = (9/5) * C +32
+print('это в С:', C)
+print('это в F:', F, 'это целая величина', int(F))
+summa = 40.4 +43.3
+
+print(f"celcium {C} in farangates {F} f in integer {int(F)}")
+
+print(f"celcium: {C}. in farangates: {F}. f in integer: {int(F)}.")
+
+
+num1 = 5.6
+print(int(num1))
+
+num1 = 5.6
+print(num1)
+num2 = int(num1)
+print(num2)
+
+num1 = 5
+num2 = float(num1)
+print(num2)
+
+num2 = float(5)
+print(num2)
+
+num2 = float(round(5.6666666666666,3))
+print(num2)
+
+
+
+
+
+print("Добро пожаловать в нашу анкету!")
+name = input("Введите ваше имя: ")
+surname = input("Введите вашу фамилию: ")
+age = input("Сколько вам лет? ")
+hobby = input("Ваше хобби: ")
+film = input("Ваш любимый фильм: ")
+print("--- Ваша анкета ---")
+print("Имя:", name)
+print("Фамилия:", surname)
+print("Возраст:", age)
+print("Хобби:", hobby)
+print("Любимый фильм:", film)
+
+print("Это каьлкулятор который вычислит сколько лет было твоей маме когда ты родился!")
+day = int(input("Введите ваш день рождения: например: 02"))
+mounth = int(input("Введите ваш месяц рождения: например: 7"))
+year = int(input("Введите ваш год рождения: например: 2000"))
+
+print("Теперь напиши день рождение твоей мамы")
+
+mom_day = int(input("Введите день рождения вашей мамы: например: 02"))
+mom_mounth = int(input("Введите месяц рождениявашей мамы: например: 7"))
+mom_year = int(input("Введите год рождения вашей мамы: например: 2000"))
+
+answer = (mom_day - day),(mom_mounth - mounth),(mom_year - year)
+print(answer)
+
