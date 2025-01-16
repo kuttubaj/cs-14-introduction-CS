@@ -1,0 +1,16 @@
+import random
+import string
+
+
+characters = string.ascii_letters + string.digits + string.punctuation
+
+
+print("Здравствуйте это инструмент который может создать вам рандомный пароль!")
+password_length = int(input("Введите длину пароля: "))
+
+password = ''
+for i in range(password_length):
+    password += random.choice(characters)
+
+print("Случайный пароль:", password)
+
